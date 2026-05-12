@@ -1,1 +1,6 @@
-﻿pipeline: { stages: [Build, Securit, Test, Deploy] }
+﻿pipeline:
+  stages:
+    - Build
+    - Security-Audit
+    - Test
+    - Deploy
